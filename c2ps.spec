@@ -2,7 +2,7 @@ Summary:	Tool for converting C/C++ sources to PostScript
 Summary(pl):	Narzêdzie do konwersji ¼róde³ C/C++ na PostScript
 Name:		c2ps
 Version:	4.0
-Release:	1
+Release:	2
 Group:		Applications/Printing
 Group(de):	Applikationen/Drucken
 Group(pl):	Aplikacje/Drukowanie
