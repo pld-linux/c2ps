@@ -1,0 +1,12 @@
+diff -urN c2ps-4.0.orig/Makefile c2ps-4.0/Makefile
+--- c2ps-4.0.orig/Makefile	Thu May 15 17:50:56 1997
++++ c2ps-4.0/Makefile	Fri Jul 21 20:39:16 2000
+@@ -3,7 +3,7 @@
+ 
+ RM	= 	rm -f
+ CC	=	gcc
+-CCFLAGS =       -O
++CCFLAGS =       $(OPT_FLAGS)
+ 
+ PREFIX	=	/usr/local
+ BIN	=	$(PREFIX)/bin
