@@ -12,7 +12,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This small utility converts C/C++ sources to PostScript. It performs
-syntax highlighting and can add many, very usefull informations to the
+syntax highlighting and can add many very useful informations to the
 printout, such as line numbers, headers and indexes of functions on
 each page. Great thing, if you waste too much time in traffic jams or
 public transport ;)
