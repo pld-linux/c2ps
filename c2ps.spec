@@ -3,10 +3,10 @@ Summary(pl):	Narzêdzie do konwersji ¼róde³ C/C++ na PostScript
 Name:		c2ps
 Version:	4.0
 Release:	2
+License:	GPL
 Group:		Applications/Printing
 Group(de):	Applikationen/Drucken
 Group(pl):	Aplikacje/Drukowanie
-License:	GPL
 Source0:	http://www.geocities.com/SiliconValley/Park/2055/%{name}-40.tgz
 Patch0:		%{name}-OPT_FLAGS.patch
 URL:		http://www.geocities.com/SiliconValley/Park/2055/
