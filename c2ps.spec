@@ -8,29 +8,30 @@ Group(pl):	Narzêdzia/Drukowanie
 License:	GPL
 Source0:	http://www.geocities.com/SiliconValley/Park/2055/%{name}-40.tgz
 Patch0:		c2ps-OPT_FLAGS.patch
+URL:		http://www.geocities.com/SiliconValley/Park/2055/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Tool for converting C/C++ sources to PostScript.
 
 %description -l pl
+Narzêdzie do konwersji ¼róde³ C/C++ na PostScript
 
 %prep
 %setup -q
 %patch0 -p1
 
 %build
-
 %{__make} OPT_FLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 install c2ps	$RPM_BUILD_ROOT%{_bindir}
 install c2ps.1	$RPM_BUILD_ROOT%{_mandir}/man1
 
-strip --strip-unneeded c2ps
+strip c2ps
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man*/* \
 	README
@@ -40,6 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README.gz
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/*/*
-%doc README.gz
