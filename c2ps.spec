@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Printing
 Source0:	http://www.geocities.com/SiliconValley/Park/2055/%{name}-40.tgz
+# Source0-md5:	195553258f2f18198f164ea8f66362dc
 Patch0:		%{name}-OPT_FLAGS.patch
 URL:		http://www.geocities.com/SiliconValley/Park/2055/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
