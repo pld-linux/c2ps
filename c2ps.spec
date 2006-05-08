@@ -31,7 +31,9 @@ komunikacji miejskiej ;)
 %patch0 -p1
 
 %build
-%{__make} OPT_FLAGS="%{rpmcflags}"
+%{__make} \
+	CC="%{__cc}" \
+	OPT_FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
