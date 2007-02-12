@@ -1,5 +1,5 @@
 Summary:	Tool for converting C/C++ sources to PostScript
-Summary(pl):	Narzêdzie do konwersji ¼róde³ C/C++ na PostScript
+Summary(pl.UTF-8):   NarzÄ™dzie do konwersji ÅºrÃ³deÅ‚ C/C++ na PostScript
 Name:		c2ps
 Version:	4.0
 Release:	3
@@ -18,12 +18,12 @@ printout, such as line numbers, headers and indexes of functions on
 each page. Great thing, if you waste too much time in traffic jams or
 public transport ;)
 
-%description -l pl
-To ma³e narzêdzie konwertuje pliki ¼ród³owe C/C++ do PostScriptu.
-Wykonuje wyró¿nianie sk³adni a tak¿e potrafi dodaæ do wydruku wiele
-bardzo u¿ytecznych informacji, takich jak numery linii, nag³ówki oraz
-indeksy funkcji znajduj±cych siê na poszczególnych stronach. ¦wietna
-rzecz, je¶li tracisz zbyt du¿o czasu stoj±c w korkach, albo w
+%description -l pl.UTF-8
+To maÅ‚e narzÄ™dzie konwertuje pliki ÅºrÃ³dÅ‚owe C/C++ do PostScriptu.
+Wykonuje wyrÃ³Å¼nianie skÅ‚adni a takÅ¼e potrafi dodaÄ‡ do wydruku wiele
+bardzo uÅ¼ytecznych informacji, takich jak numery linii, nagÅ‚Ã³wki oraz
+indeksy funkcji znajdujÄ…cych siÄ™ na poszczegÃ³lnych stronach. Åšwietna
+rzecz, jeÅ›li tracisz zbyt duÅ¼o czasu stojÄ…c w korkach, albo w
 komunikacji miejskiej ;)
 
 %prep
