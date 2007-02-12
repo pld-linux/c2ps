@@ -1,5 +1,5 @@
 Summary:	Tool for converting C/C++ sources to PostScript
-Summary(pl.UTF-8):   Narzędzie do konwersji źródeł C/C++ na PostScript
+Summary(pl.UTF-8):	Narzędzie do konwersji źródeł C/C++ na PostScript
 Name:		c2ps
 Version:	4.0
 Release:	3
